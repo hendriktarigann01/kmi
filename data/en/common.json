@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "product": "Product",
+    "services": "Services",
+    "whyChooseUs": "Why choose us",
+    "consultation": "Consultation"
+  },
+  "hero": {
+    "title": "Reliable Display Solutions\nfor Every Project",
+    "subtitle": "Cost-effective display solutions designed to meet the high standards of your project.",
+    "cta": "Get Consultation"
+  },
+  "about": {
+    "description": "At KMI, we specialize in bridging the gap between high-end performance and budget-conscious procurement. Our displays are engineered for longevity, ensuring your investment stands the test of time in even the most demanding environments."
+  },
+  "valueProps": {
+    "quality": {
+      "label": "Quality",
+      "title": "Quality Guaranteed",
+      "description": "Carefully selected products with verified quality standards."
+    },
+    "endToEnd": {
+      "label": "End to end",
+      "title": "End to end Service",
+      "description": "From survey to installation, we handle everything."
+    },
+    "price": {
+      "label": "Price",
+      "title": "Competitive Pricing",
+      "description": "The best deals without compromising on quality."
+    }
+  },
+  "whyKMI": {
+    "intro": "Every project comes with its own unique needs. KMI delivers tailored solutions backed by experienced teams and clear processes.",
+    "features": {
+      "verifiedQuality": {
+        "title": "Verified Quality",
+        "description": "Every product goes through rigorous selection to meet quality standards before reaching you."
+      },
+      "experiencedTeam": {
+        "title": "Experienced Team",
+        "description": "Our team has years of practical experience in a wide range of government and corporate projects."
+      },
+      "transparentProcess": {
+        "title": "Transparent Process",
+        "description": "We keep you informed at every stage from survey and proposal to final handover."
+      },
+      "freeConsultation": {
+        "title": "Free Consultation and Survey",
+        "description": "Talk to our team for free. We assess your needs and provide the right solution, including on-site survey."
+      }
+    }
+  },
+  "cta": {
+    "title": "Have a Project? Let's Discuss It Together.",
+    "subtitle": "Our team is ready to help you find the display solution that best suits your needs.",
+    "button": "Get Consultation"
+  }
+}

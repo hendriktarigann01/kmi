@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "product": "Produk",
+    "services": "Layanan",
+    "whyChooseUs": "Mengapa kami",
+    "consultation": "Konsultasi"
+  },
+  "hero": {
+    "title": "Solusi Display Andal\nuntuk Setiap Proyek",
+    "subtitle": "Solusi display hemat biaya yang dirancang untuk memenuhi standar tinggi proyek Anda.",
+    "cta": "Konsultasi Gratis"
+  },
+  "about": {
+    "description": "Di KMI, kami ahli dalam menjembatani kesenjangan antara performa tinggi dan pengadaan yang hemat biaya. Display kami dirancang untuk ketahanan jangka panjang, memastikan investasi Anda bertahan dalam kondisi lingkungan yang paling menuntut sekalipun."
+  },
+  "valueProps": {
+    "quality": {
+      "label": "Kualitas",
+      "title": "Kualitas Terjamin",
+      "description": "Produk pilihan dengan standar kualitas yang telah terverifikasi."
+    },
+    "endToEnd": {
+      "label": "End to end",
+      "title": "Layanan End to End",
+      "description": "Dari survei hingga instalasi, kami menangani semuanya."
+    },
+    "price": {
+      "label": "Harga",
+      "title": "Harga Kompetitif",
+      "description": "Penawaran terbaik tanpa mengorbankan kualitas."
+    }
+  },
+  "whyKMI": {
+    "intro": "Setiap proyek memiliki kebutuhan uniknya sendiri. KMI menghadirkan solusi yang disesuaikan, didukung oleh tim berpengalaman dan proses yang transparan.",
+    "features": {
+      "verifiedQuality": {
+        "title": "Kualitas Terverifikasi",
+        "description": "Setiap produk melalui seleksi ketat untuk memenuhi standar kualitas sebelum sampai ke tangan Anda."
+      },
+      "experiencedTeam": {
+        "title": "Tim Berpengalaman",
+        "description": "Tim kami memiliki pengalaman bertahun-tahun dalam berbagai proyek pemerintah dan korporat."
+      },
+      "transparentProcess": {
+        "title": "Proses Transparan",
+        "description": "Kami selalu memberi informasi di setiap tahap, mulai dari survei dan proposal hingga serah terima akhir."
+      },
+      "freeConsultation": {
+        "title": "Konsultasi dan Survei Gratis",
+        "description": "Bicara dengan tim kami secara gratis. Kami menilai kebutuhan Anda dan memberikan solusi yang tepat, termasuk survei lapangan."
+      }
+    }
+  },
+  "cta": {
+    "title": "Punya Proyek? Mari Diskusikan Bersama.",
+    "subtitle": "Tim kami siap membantu Anda menemukan solusi display yang paling sesuai dengan kebutuhan.",
+    "button": "Konsultasi Sekarang"
+  }
+}
