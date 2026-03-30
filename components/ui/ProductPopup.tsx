@@ -104,32 +104,6 @@ const PRODUCTS: Record<ProductKey, ProductData> = {
       },
     ],
   },
-  "Interactive Whiteboard": {
-    name: "Interactive Whiteboard",
-    image: "/images/products/whiteboard.webp",
-    sizes: ['65"', '75"', '86"', '98"'],
-    features: [
-      {
-        title: "Precision Touch",
-        description:
-          "Smooth, multi-user writing experience with ultra-low latency.",
-      },
-      {
-        title: "Seamless Integration",
-        description:
-          "Easily share your screen from any device (iOS, Android, Windows, Mac).",
-      },
-      {
-        title: "Crystal Clear Visuals",
-        description:
-          "High resolution with anti-glare technology for optimal visibility in all lighting conditions.",
-      },
-      {
-        title: "All-in-One Solution",
-        description: "Equipped with built-in video conferencing tools.",
-      },
-    ],
-  },
 };
 
 interface ProductPopupProps {
