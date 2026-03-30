@@ -80,10 +80,8 @@ export default function WhyKMI() {
               </div>
 
               <div>
-                <h3 className="text-[#616161] text-xl mb-3">{f.title}</h3>
-                <p className="text-[#616161] text-sm lmax-w-xs">
-                  {f.description}
-                </p>
+                <h3 className="text-muted text-xl mb-3">{f.title}</h3>
+                <p className="text-muted text-sm lmax-w-xs">{f.description}</p>
               </div>
             </motion.div>
           ))}

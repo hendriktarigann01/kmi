@@ -35,17 +35,17 @@ export default function Footer() {
             height={36}
             className="object-contain"
           />
-          <p className="text-[#616161] text-xs tracking-wide">
+          <p className="text-muted text-xs tracking-wide">
             Trusted Digital Display Solutions.
           </p>
 
           {/* Nav Links */}
-          <div className="flex flex-wrap justify-center gap-6 mt-2">
+          <div className="block space-y-2 md:space-y-0 md:flex flex-wrap justify-center gap-6 mt-2">
             {footerLinks.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
-                className="text-muted hover:text-primary text-sm transition-opacity"
+                className="block md:inline text-muted hover:text-primary text-sm transition-opacity mb-2 md:mb-0"
               >
                 {link.label}
               </a>
@@ -55,9 +55,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-[#E5E9EC] pt-6 flex flex-col md:flex-row items-center justify-between gap-3">
-          <p className="text-[#616161] text-xs">
-            © 2025 KMI. All rights reserved.
-          </p>
+          <p className="text-muted text-xs">© 2026 KMI. All rights reserved.</p>
 
           <div className="flex gap-5">
             {socialLinks.map((s) => (

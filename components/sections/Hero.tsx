@@ -28,7 +28,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, ease: "easeOut" }}
-              className="text-white text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4"
+              className="text-white text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight mb-4"
             >
               {t("title")
                 .split("\n")

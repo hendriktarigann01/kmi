@@ -178,12 +178,6 @@ export default function ProductPopup({
                 {/* Header */}
                 <div className="flex items-start justify-between mb-6">
                   <h2 className="text-muted text-lg">{product.name}</h2>
-                  <button
-                    onClick={onClose}
-                    className="text-[#616161] hover:text-muted transition-colors p-1 -mr-1"
-                  >
-                    <X size={18} />
-                  </button>
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-6">
@@ -233,7 +227,7 @@ export default function ProductPopup({
                 <div className="flex justify-center mt-7">
                   <button
                     onClick={onClose}
-                    className="flex items-center gap-2 border border-[#E5E9EC] text-[#616161] text-sm px-5 py-2 rounded-full hover:border-muted hover:text-muted transition-colors"
+                    className="flex items-center gap-2 border border-[#E5E9EC] text-muted text-sm px-5 py-2 rounded-full hover:border-muted hover:text-muted transition-colors"
                   >
                     Back <ArrowRight size={14} />
                   </button>
