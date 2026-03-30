@@ -6,9 +6,9 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 export type ProductKey =
-  | "Interactive Kiosk"
+  | "Interactive Whiteboard"
   | "LED Indoor"
-  | "Standfoor"
+  | "Standfloor"
   | "Interactive Whiteboard";
 
 interface Feature {
@@ -24,7 +24,7 @@ interface ProductData {
 }
 
 const PRODUCTS: Record<ProductKey, ProductData> = {
-  Standfoor: {
+  Standfloor: {
     name: "Standfloor",
     image: "/images/products/standfloor.webp",
     sizes: ['43"', '55"', '65"'],
@@ -51,7 +51,7 @@ const PRODUCTS: Record<ProductKey, ProductData> = {
       },
     ],
   },
-  "Interactive Kiosk": {
+  "Interactive Whiteboard": {
     name: "Interactive Whiteboard",
     image: "/images/products/interactive-whiteboard.webp",
     sizes: ['65"', '75"', '86"', '98"'],

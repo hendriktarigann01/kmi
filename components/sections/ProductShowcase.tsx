@@ -6,15 +6,15 @@ import Image from "next/image";
 import ProductPopup, { type ProductKey } from "@/components/ui/ProductPopup";
 
 const desktopLabels: { text: ProductKey; position: string }[] = [
-  { text: "Interactive Kiosk", position: "top-[25%] left-[15%]" },
+  { text: "Interactive Whiteboard", position: "top-[25%] left-[15%]" },
   { text: "LED Indoor", position: "top-[15%] left-[50%]" },
-  { text: "Standfoor", position: "bottom-[5%] right-[23%]" },
+  { text: "Standfloor", position: "bottom-[5%] right-[23%]" },
 ];
 
 const mobileLabels: { text: ProductKey; position: string }[] = [
-  { text: "Interactive Kiosk", position: "bottom-[25%] left-[10%]" },
+  { text: "Interactive Whiteboard", position: "bottom-[25%] left-[10%]" },
   { text: "LED Indoor", position: "top-[18%] left-[38%]" },
-  { text: "Standfoor", position: "bottom-[25%] right-[10%]" },
+  { text: "Standfloor", position: "bottom-[25%] right-[10%]" },
 ];
 
 function LabelButton({
