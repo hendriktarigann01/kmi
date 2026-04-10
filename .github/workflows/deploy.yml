@@ -1,4 +1,4 @@
-name: Auto Deploy KMI (SSR) to cPanel
+name: Auto Deploy Next.js (SSR) to cPanel
 
 on:
   push:
@@ -23,11 +23,13 @@ jobs:
 
       - name: Build Next.js for production
         run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_URL: ${{ secrets.NEXT_PUBLIC_BASE_URL }}
 
       - name: Prepare deployment folder
         run: |
           mkdir -p deploy
-          cp -r .next package.json server.js public deploy/
+          cp -r .next package.json package-lock.json server.js public deploy/
           rm -rf deploy/.next/cache
           rm -f deploy/.next/trace
           rm -f deploy/.next/trace-build
